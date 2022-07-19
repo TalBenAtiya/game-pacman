@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.ghosts {
+  display: none;
+  position: absolute;
+  bottom: 0px;
+}
+
+
+
+.modal {
+  height: 80px;
+  width: 220px;
+  background-color: purple;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 20px;
+  display: none;
+}
+
+
+
+.modal button{
+  background-color: rgb(240, 231, 60);
+  width: 70px;
+  height: 50px;
+  font-size: 15px;
+  position: absolute;
+  bottom: 335px;
+  left: 200px;
+  border: 2px solid white;
+}
+
+.modal span{
+  font-size: 20px;
+  position: absolute;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  left: 70px;
+  bottom:335px;
+
+}
+
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
